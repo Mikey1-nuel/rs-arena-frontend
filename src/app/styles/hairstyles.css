@@ -223,9 +223,9 @@
 		align-items: center;
 		margin-top: 120px;
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-		padding: 40px 20px 40px 20px;
+		padding: 40px 80px 40px 80px;
 		border-radius: 10px;
-		gap: 20px;
+		gap: 30px;
 	}
 
 	.hairstyle-desc {
@@ -426,6 +426,13 @@
 		align-items: center;
 		color: white;
 		overflow: hidden;
+	}
+
+	.hairstyle-grid {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.hairstyle-desc h3 {

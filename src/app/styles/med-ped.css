@@ -39,8 +39,8 @@
 	grid-template-columns: 1fr 1fr;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 30px 20px 30px;
-	gap: 10px;
+	padding: 20px 170px 20px 170px;
+	gap: 20px;
 }
 
 .man-ped-list {
