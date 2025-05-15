@@ -211,5 +211,18 @@ pointer-events: none;
 		justify-content: center;
 		align-items: center;
 	}
+
+	.name-container {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	padding-right: 120px;
+}
+
+.name-container .name {
+	display: flex;
+	width: 71.5%;
+	gap: 10px;
+}
 }
 
