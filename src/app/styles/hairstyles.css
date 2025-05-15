@@ -1,0 +1,570 @@
+.hairstyle-cont {
+	width: 100%;
+}
+
+.hairstyle {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/hair-back-2.jpg');
+	background-size: cover;
+	/* background-size: contain; */
+	background-position: top;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.hairstyle-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px 20px 100px;
+	gap: 50px;
+	margin-top: 150px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 40px 100px 40px 100px;
+	border-radius: 10px;
+}
+
+.hairstyle-desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	border-radius: 10px;
+	height: 500px;
+}
+
+.hairstyle-desc h3 {
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 300;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 2.2rem;
+}
+
+.hairstyle-desc .naira {
+	font-size: 1.5rem;
+}
+
+.hair-img-hold {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Bob faux locs.jpeg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold2 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Cornrows.jpeg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold3 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Criss-cross Ghana weaving.png');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold4 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Goddess braids.jpeg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold5 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Knotless braids with curly ends.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold6 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Ponytail with bangs.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold7 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Stitch braid.jpeg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold8 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Ziz-Zag stitch braid.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold9 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/waves cut with etched sides.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold10 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Braids For Kids.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.hair-img-hold11 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Mens Haircut.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.hairstyle {
+		position: relative;
+		width: 100%;
+		height: 50vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/hair-back-2.jpg');
+		background-size: cover;
+		/* background-size: contain; */
+		background-position: top;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.hairstyle-grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		margin-top: 120px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		padding: 40px 20px 40px 20px;
+		border-radius: 10px;
+		gap: 20px;
+	}
+
+	.hairstyle-desc {
+		width: 300px;
+		height: 500px;
+	}
+
+	.hairstyle-desc h3 {
+		font-size: 2rem;
+	}
+
+	.hairstyle-desc .naira {
+		font-size: 1.5rem;
+	}
+
+	.hair-img-hold {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Bob faux locs.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold2 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Cornrows.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold3 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Criss-cross Ghana weaving.png');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold4 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Goddess braids.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold5 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Knotless braids with curly ends.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold6 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Ponytail with bangs.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold7 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Stitch braid.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold8 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Ziz-Zag stitch braid.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold9 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/waves cut with etched sides.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold10 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Braids For Kids.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold11 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Mens Haircut.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 80%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.hairstyle-cont .header-mob {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0px;
+		position: relative;
+		height: 55px;
+	}
+	.hairstyle-cont .header-mob .hamburger {
+		display: flex;
+		width: 35px;
+		border: none;
+	}
+
+	.hamburger .hamburg {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding-left: 0;
+	}
+
+	.hairstyle-cont .header-mob .logo {
+		position: absolute;
+		padding: 0;
+		top: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: 40px;
+	}
+
+	.hairstyle {
+		position: relative;
+		width: 100%;
+		height: 40vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/hair-back-2.jpg');
+		background-size: cover;
+		/* background-size: contain; */
+		background-position: top;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.hairstyle-desc h3 {
+		font-size: 1.6rem;
+	}
+
+	.hairstyle-desc .naira {
+		font-size: 1.4rem;
+	}
+
+	.hair-img-hold {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Bob faux locs.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold2 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Cornrows.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold3 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Criss-cross Ghana weaving.png');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold4 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Goddess braids.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold5 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Knotless braids with curly ends.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold6 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Ponytail with bangs.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold7 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Stitch braid.jpeg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold8 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Ziz-Zag stitch braid.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold9 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/waves cut with etched sides.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold10 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Braids For Kids.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.hair-img-hold11 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Mens Haircut.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		width: 250px;
+		height: 40vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}

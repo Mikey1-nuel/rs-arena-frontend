@@ -1,0 +1,188 @@
+.policy-container {
+	width: 100%;
+}
+
+.policy {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/policy.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.policy-content {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 50px;
+}
+
+.policy-content h3 {
+	font-size: 1.5rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 400;
+}
+
+.policy-content h3:nth-child(1) {
+	font-size: 3.5rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.policy-content ul {
+	list-style-type: none;
+}
+
+.policy-content ul li {
+	font-family: "Poppins",sans-serif;
+	font-size: 0.9rem;
+	color: #555;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.policy-content ul li span {
+	margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+	.policy {
+	position: relative;
+	width: 100%;
+	height: 55vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/policy.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+	.policy-content {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 50px;
+}
+
+.policy-content h3:nth-child(1) {
+	font-size: 3.3rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+}
+
+@media (max-width: 480px) {
+	.policy-container .header-mob {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0px;
+		position: relative;
+		height: 55px;
+	}
+	.policy-container .header-mob .hamburger {
+		display: flex;
+		width: 35px;
+		border: none;
+	}
+
+	.hamburger .hamburg {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding-left: 0;
+	}
+
+	.policy-container .header-mob .logo {
+		position: absolute;
+		padding: 0;
+		top: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: 40px;
+	}
+
+	.policy {
+	position: relative;
+	width: 100%;
+	height: 48vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/policy.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+	.policy-content {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 20px;
+}
+
+.policy-content h3 {
+	font-size: 1.2rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 400;
+}
+
+.policy-content h3:nth-child(1) {
+	font-size: 2rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.policy-content ul li .correct {
+	margin-right: 20px;
+	width: 15px;
+	height: 15px;
+}
+}

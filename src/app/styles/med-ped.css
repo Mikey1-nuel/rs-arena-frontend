@@ -1,0 +1,273 @@
+.med-ped-cont {
+	width: 100%;
+}
+
+.med-ped-art {
+	position: relative;
+	width: 100%;
+	height: 83vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/man-ped.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.man-ped-pack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.man-ped-pack2 {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 30px 20px 30px;
+	gap: 10px;
+}
+
+.man-ped-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 30px;
+	width: 480px;
+	height: 210px;
+	padding: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.man-ped-pack h3 {
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	margin-bottom: 30px;
+	padding-top: 60px;
+}
+
+.man-ped-list h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	width: 100%;
+	padding-top: 0px;
+}
+
+.man-ped-list .space-bet {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.man-ped-pack2 p {
+	font-family: "Poppins",sans-serif;
+	font-size: 0.9rem;
+	color: #555;
+	width: 100%;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.man-ped-list .nairaaa {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.med-ped-art {
+		position: relative;
+		width: 100%;
+		height: 63vh;
+	
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/man-ped.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.man-ped-pack {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 120px;
+	}
+
+	.man-ped-pack2 {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0px 50px 0px 50px;
+		gap: 10px;
+	}
+
+	.man-ped-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 30px;
+		padding-right: 20px;
+		width: 520px;
+		height: 250px;
+	}
+
+	.man-ped-pack h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 1.7rem;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+
+	.man-ped-list h3 {
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+
+	.man-ped-pack2 p {
+	font-size: 1.1rem;
+}
+
+	.man-ped-list .nairaaa {
+		font-size: 1.4rem;
+	} 
+}
+
+@media (max-width: 480px) {
+		.med-ped-cont .header-mob {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0px;
+		position: relative;
+		height: 55px;
+	}
+	.med-ped-cont .header-mob .hamburger {
+		display: flex;
+		width: 35px;
+		border: none;
+	}
+
+	.hamburger .hamburg {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding-left: 0;
+	}
+
+		.med-ped-cont .header-mob .logo {
+		position: absolute;
+		padding: 0;
+		top: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: 40px;
+	}
+
+	.med-ped-art {
+		position: relative;
+		width: 100%;
+		height: 43vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/man-ped.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.man-ped-pack {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 60px;
+	}
+
+	.man-ped-pack .just-me {
+		margin-left: 20px;
+	}
+
+	.man-ped-pack2 {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0px 20px;
+		gap: 10px;
+	}
+
+	.man-ped-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 30px;
+		padding-right: 20px;
+		width: 380px;
+		height: 240px;
+	}
+
+	.man-ped-pack h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 1.5rem;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+
+	.man-ped-pack2 p {
+		font-size: 0.9rem;
+	}
+
+	.man-ped-pack2 .man-ped-list h3 {
+		font-size: 1.3rem;
+		margin-bottom: 10px;
+	}
+
+	.man-ped-list .nairaaa {
+		font-size: 1.3rem;
+	} 
+}

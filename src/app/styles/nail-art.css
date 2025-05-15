@@ -1,0 +1,332 @@
+.nail-art-cont {
+	width: 100%;
+}
+
+.nail-art {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Screenshot_20250430_080148.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.nail-art-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px 20px 100px;
+	gap: 50px;
+	margin-top: 150px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+
+.nails-desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	border-radius: 10px;
+	width: 500px;
+	height: 620px;
+}
+
+.nails-desc h3 {
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-size: 3rem;
+	font-weight: 300;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.nail-img-hold {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/3D Nail Art Designs.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nail-img-hold2 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Aura Nail Design.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nail-img-hold3 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Chrome Nail Design.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nail-img-hold4 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/French Minimalist Nail Design.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nail-img-hold5 {
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/Square Nail Design.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nails-desc p {
+	font-family: "Poppins",sans-serif;
+	font-size: 0.9rem;
+	color: #555;
+	text-align: center;
+}
+
+.naira {
+	color: black;
+	font-size: 1.9rem;
+	font-weight: 300;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.nail-art {
+		position: relative;
+		width: 100%;
+		height: 48vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Screenshot_20250430_080148.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.nail-art-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 50px 20px 50px;
+		gap: 50px;
+		margin-top: 120px;
+	}
+
+	.nails-desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+		width: 330px;
+		height: 500px;
+	}
+
+	.nails-desc h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 2.5rem;
+		font-weight: 300;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.nail-img-hold {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/3D Nail Art Designs.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.nail-img-hold2 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Aura Nail Design.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.nail-img-hold3 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Chrome Nail Design.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.nail-img-hold4 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/French Minimalist Nail Design.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.nail-img-hold5 {
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Square Nail Design.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 30vh;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.nail-art-cont .header-mob {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0px;
+		position: relative;
+		height: 55px;
+	}
+	.nail-art-cont .header-mob .hamburger {
+		display: flex;
+		width: 35px;
+		border: none;
+	}
+
+	.hamburger .hamburg {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding-left: 0;
+	}
+
+	.nail-art-cont .header-mob .logo {
+		position: absolute;
+		padding: 0;
+		top: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: 40px;
+	}
+
+	.nail-art {
+		position: relative;
+		width: 100%;
+		height: 40vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/Screenshot_20250430_080148.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.nail-art-grid {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 50px 20px 50px;
+		gap: 50px;
+		margin-top: 60px;
+	}
+
+	.nails-desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.nails-desc h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 1.8rem;
+		font-weight: 300;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.naira {
+		color: black;
+		font-size: 1.5rem;
+		font-weight: 300;
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+}

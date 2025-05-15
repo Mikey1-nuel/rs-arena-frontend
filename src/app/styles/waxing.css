@@ -1,0 +1,142 @@
+.waxing-cont {
+	width: 100%;
+}
+
+.waxing {
+	position: relative;
+	width: 100%;
+	height: 83vh;
+  
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/waxing.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.spa-treat {
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+
+.spa-treat p {
+	font-family: "Poppins",sans-serif;
+	font-size: 1.1rem;
+	color: #555;
+	line-height: 4;
+	text-align: center;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.nairaa {
+	margin-left: 10px;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+	.waxing {
+		position: relative;
+		width: 100%;
+		height: 63vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/waxing.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.spa-treat p {
+		font-family: "Poppins",sans-serif;
+		font-size: 1.1rem;
+		color: #555;
+		line-height: 4;
+		text-align: center;
+	}
+
+	.nairaa {
+		margin-left: 10px;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.waxing-cont .header-mob {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0px;
+		position: relative;
+		height: 55px;
+	}
+	.waxing-cont .header-mob .hamburger {
+		display: flex;
+		width: 35px;
+		border: none;
+	}
+
+	.hamburger .hamburg {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding-left: 0;
+	}
+
+	.waxing-cont .header-mob .logo {
+		position: absolute;
+		padding: 0;
+		top: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: 40px;
+	}
+
+	.waxing {
+		position: relative;
+		width: 100%;
+		height: 49vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/waxing.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.spa-treat p {
+		width: 400px;
+	}
+}
