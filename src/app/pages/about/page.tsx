@@ -2,8 +2,8 @@
 import React from 'react'
 import NavBar from '@/app/components/navbar';
 import Image from 'next/image';
-import '../../styles/about.css';
 import '../../styles/global.css';
+import '../../styles/about.css';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 

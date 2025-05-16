@@ -47,7 +47,7 @@
 	font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.waxing {
 		position: relative;
 		width: 100%;
@@ -83,7 +83,45 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (min-width: 600px) and (max-width: 768px) {
+	.waxing {
+		position: relative;
+		width: 100%;
+		height: 63vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/waxing.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.spa-treat p {
+		font-family: "Poppins",sans-serif;
+		font-size: 1.1rem;
+		color: #555;
+		line-height: 4;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.nairaa {
+		margin-left: 10px;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
 	.waxing-cont .header-mob {
 		width: 100%;
 		display: flex;
@@ -136,7 +174,23 @@
 		overflow: hidden;
 	}
 
-	.spa-treat p {
-		width: 350px;
+	.spa-treat {
+		padding: 40px 20px 40px 20px;
 	}
+
+	.spa-treat p {
+		/* width: 350px; */
+		width: 100%;
+		/* height: 100px; */
+		text-align: center;
+		justify-self: center;
+	}
+}
+
+@media (max-width: 425px) {
+	
+}
+
+@media (max-width: 375px) {
+
 }

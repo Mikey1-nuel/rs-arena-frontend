@@ -64,7 +64,69 @@
 	color: #555;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+	.facial {
+		position: relative;
+		width: 100%;
+		height: 63vh;
+		
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/facial.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.facial-treat {
+		justify-content: center;
+		align-items: center;
+		padding: 40px 20px 40px 20px;
+		margin-top: 120px;
+	}
+
+	.li-of-facial-treat {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		margin-bottom: 50px;
+		gap: 20px;
+		/* width: 450px;
+		height: 220px; */
+		width: 100%;
+		height: 100%;
+		margin: 20px 0px;
+	}
+
+	.li-of-facial-treat h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-bottom: 20px;
+		padding-right: 0px;
+	}
+
+	.li-of-facial-treat p {
+		font-family: "Poppins",sans-serif;
+		font-size: 1rem;
+		color: #555;
+	}
+
+		.li-of-facial-treat .naira {
+		font-size: 1.4rem;
+		font-weight: 600;
+	} 
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
 	.facial {
 		position: relative;
 		width: 100%;
@@ -90,7 +152,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 20px 50px 20px 50px;
+		padding: 20px 60px 20px 60px;
 		margin-top: 120px;
 	}
 
@@ -101,15 +163,17 @@
 		align-items: flex-start;
 		margin-bottom: 50px;
 		gap: 20px;
-		width: 560px;
-		height: 190px;
+		/* width: 560px;
+		height: 190px; */
+		width: 100%;
+		height: 100%;
 		margin: 20px 0px;
 	}
 
 	.li-of-facial-treat h3 {
 		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
-		font-size: 1.7rem;
-		font-weight: 300;
+		font-size: 1.4rem;
+		font-weight: 600;
 		margin-bottom: 20px;
 		padding-right: 0px;
 	}
@@ -121,11 +185,12 @@
 	}
 
 		.li-of-facial-treat .naira {
-		font-size: 1.7rem;
+		font-size: 1.4rem;
+		font-weight: 600;
 	} 
 }
 
-@media (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 480px) {
 	.facial-cont .header-mob {
 		width: 100%;
 		display: flex;
@@ -190,8 +255,9 @@
 
 	.li-of-facial-treat {
 		justify-content: flex-start;
-		width: 350px;
+		/* width: 350px; */
 		height: 270px;
+		width: 100%;
 	}
 
 	.li-of-facial-treat h3 {
@@ -205,4 +271,12 @@
 		.li-of-facial-treat .naira {
 		font-size: 1.6rem;
 	} 
+}
+
+@media (max-width: 425px) {
+	
+}
+
+@media (max-width: 375px) {
+
 }

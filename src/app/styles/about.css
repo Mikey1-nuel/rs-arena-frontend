@@ -131,7 +131,7 @@
 	display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.about-hero {
 	position: relative;
 	width: 100%;
@@ -238,10 +238,123 @@
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+	.about-hero {
+	position: relative;
+	width: 100%;
+	height: 68vh;
+	
+	/* Background layer */
+	background-color: #cccccc; /* grey fallback */
+	background-image: url('/images/about.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	overflow: hidden;
+}
+
+.hero-content h1 {
+	font-size: 3rem;
+}
+
+.about-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.about-us {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.our-story {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 150px;
+	gap: 40px;
+	background-color: #fff;
+}
+
+.about-us p {
+	color: black;
+	width: 90%;
+	font-size: 0.9rem;
+	font-family: poppins, sans-serif;
+	line-height: 1.8;
+	text-align: left;
+}
+
+.para-spacing {
+	margin-bottom: 20px;
+}
+
+.para-spacing2 {
+	margin-bottom: 5px;
+}
+
+.about-us img {
+	width: 45%;
+	height: 100%;
+	margin-right: 20px;
+	float: left;
+}
+
+.set-us-apart {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+}
+
+.set-us-apart h2 {
+	font-size: 3.3rem;
+	color: black;
+	font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+.set-us-apart-writeup {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.desktop {
+	display: none;
+}
+
+.our-story .about-img {
+	float: right;
+}
+
+.benefits {
+		list-style-type: none;
+	color: #000;
+	font-family: Poppins, sans-serif;
+	font-size: 0.9rem;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
 
 }
 
-@media (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 480px) {
 	.about-container .header-mob {
 		width: 100%;
 		display: flex;
@@ -359,4 +472,20 @@
 .desktop {
 	display: none;
 }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+	
+}
+
+@media (max-width: 425px) {
+	
+}
+
+@media (max-width: 375px) {
+
 }

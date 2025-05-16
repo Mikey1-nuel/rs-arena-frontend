@@ -93,7 +93,80 @@
 	font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+	.med-ped-art {
+		position: relative;
+		width: 100%;
+		height: 63vh;
+	
+		/* Background layer */
+		background-color: #cccccc; /* grey fallback */
+		background-image: url('/images/man-ped.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		overflow: hidden;
+	}
+
+	.man-ped-pack {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 120px;
+	}
+
+	.man-ped-pack2 {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 20px 40px 20px;
+		gap: 20px;
+	}
+
+	.man-ped-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 30px;
+		padding-right: 20px;
+		/* width: 450px;
+		height: 210px; */
+		width: 100%;
+		height: 100%;
+	}
+
+	.man-ped-pack h3 {
+		font-family: "LTC Bodoni 175 W01 Regular", "Times New Roman", serif;
+		font-size: 1.7rem;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+
+	.man-ped-list h3 {
+		font-size: 1.4rem;
+		margin-bottom: 10px;
+		font-weight: 600;
+	}
+
+	.man-ped-pack2 p {
+	font-size: 1.1rem;
+}
+
+	.man-ped-list .nairaaa {
+		font-size: 1.4rem;
+		font-weight: 600;
+	} 
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
 	.med-ped-art {
 		position: relative;
 		width: 100%;
@@ -139,8 +212,10 @@
 		align-items: flex-start;
 		margin-bottom: 30px;
 		padding-right: 20px;
-		width: 520px;
-		height: 250px;
+		/* width: 520px;
+		height: 250px; */
+		width: 100%;
+		height: 100%;
 	}
 
 	.man-ped-pack h3 {
@@ -164,7 +239,7 @@
 	} 
 }
 
-@media (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 480px) {
 		.med-ped-cont .header-mob {
 		width: 100%;
 		display: flex;
@@ -247,8 +322,9 @@
 		align-items: flex-start;
 		margin-bottom: 30px;
 		padding-right: 20px;
-		width: 350px;
+		/* width: 350px; */
 		height: 240px;
+		width: 100%;
 	}
 
 	.man-ped-pack h3 {
@@ -270,4 +346,12 @@
 	.man-ped-list .nairaaa {
 		font-size: 1.3rem;
 	} 
+}
+
+@media (max-width: 425px) {
+	
+}
+
+@media (max-width: 375px) {
+
 }
